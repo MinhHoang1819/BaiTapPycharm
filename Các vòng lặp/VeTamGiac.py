@@ -6,6 +6,3 @@ for i in range(n):
         else:
             print(' ', end='')
     print()
-print('#'**30)
-
-i = 0
