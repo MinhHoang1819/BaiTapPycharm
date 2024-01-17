@@ -35,3 +35,32 @@ print("Số ký tự là nguyên âm:", nguyen_am)
 print("Số ký tự là phụ âm:", phu_am)
 
 #Cau3
+def NegativeNumberInStrings(s):
+    import re
+    pattern = r'-\d+'
+    result = re.findall(pattern, str)
+    result = [int(n) for n in result]
+
+    print(result)
+
+s = input('Nhap chuoi: ')
+
+print(NegativeNumberInStrings(s))
+
+#Cau4
+def toiUu(s):
+    s1 = s
+    s1 = s1.strip()
+    arr = s1.split(' ')
+    s1 = ''
+    for x in arr:
+        word = x
+        if len(word.strip()) != 0:
+            s1 = s1+word+' '
+    return s1.strip()
+
+s = input('Nhap chuoi: ')
+s1 = toiUu(s).title()
+
+print(s1)
+
