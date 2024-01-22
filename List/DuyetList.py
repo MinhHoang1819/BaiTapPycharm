@@ -1,3 +1,5 @@
+from random import randrange
+
 n = int(input('Nhap n: '))
 lst = [0]*n
 for i in range(n):
