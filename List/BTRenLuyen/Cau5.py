@@ -1,4 +1,4 @@
-num = []
+M = []
 n = int(input('Nhap n: '))
 for i in range(n):
     try:
@@ -7,13 +7,13 @@ for i in range(n):
         print('Vui long nhap lai.')
         continue
 
-    num.append(x)
+    M.append(x)
 
-num.sort()
+M.sort(reverse=True)
 
 print('Day so sau khi nhap: ', end='')
 
-for x in num:
+for x in M:
     print(x, end=' ')
 
 print()
