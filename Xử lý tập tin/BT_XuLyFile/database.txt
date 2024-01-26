@@ -1,0 +1,3 @@
+MA01; But Chi; 3.0
+MA02; But Bi; 5.0
+MA03; But May; 20.0
